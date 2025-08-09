@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>Contact Form</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <style>
@@ -11,7 +11,6 @@
       background-color: #f4f4f4;
       padding: 20px;
     }
-
     .form-container {
       max-width: 600px;
       margin: 0 auto;
@@ -20,13 +19,11 @@
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
     label {
       display: block;
       margin-top: 15px;
       font-weight: bold;
     }
-
     input, textarea, select {
       width: 100%;
       padding: 10px;
@@ -34,7 +31,6 @@
       border-radius: 5px;
       border: 1px solid #ccc;
     }
-
     button {
       margin-top: 20px;
       padding: 10px 15px;
@@ -44,14 +40,12 @@
       border-radius: 5px;
       cursor: pointer;
     }
-
     button:hover {
       background-color: #0d2365;
     }
   </style>
 </head>
 <body>
-
   <div class="form-container">
     <h1>Contact Us</h1>
     <form>
@@ -64,7 +58,6 @@
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="5" required></textarea>
 
-      <!-- Optional: Extra Fields -->
       <label for="reason">Reason for Contact:</label>
       <select id="reason" name="reason">
         <option value="feedback">Feedback</option>
@@ -80,6 +73,5 @@
       <button type="submit">Send Message</button>
     </form>
   </div>
-
 </body>
 </html>
